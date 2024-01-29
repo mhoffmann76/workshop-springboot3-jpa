@@ -1,10 +1,8 @@
 package com.hoffmann.course.services;
-
 import com.hoffmann.course.entities.User;
 import com.hoffmann.course.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 import java.util.Optional;
 
