@@ -2,6 +2,8 @@ package com.hoffmann.course.entities;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.hoffmann.course.entities.enums.OrderStatus;
 import jakarta.persistence.*;
+
+import java.io.Serial;
 import java.io.Serializable;
 import java.time.Instant;
 import java.util.Objects;
@@ -9,6 +11,7 @@ import java.util.Objects;
 @Entity
 @Table(name = "tb_orders")
 public class Order implements Serializable {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
